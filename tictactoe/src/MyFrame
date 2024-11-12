@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+import java.awt.*;
+
+public class MyFrame extends JFrame {
+    MyFrame(){
+        JFrame frame = new JFrame("TicTacToe");
+        frame.setSize(720, 720);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
+
+        frame.getContentPane().setBackground(new Color(159, 206, 223));
+    }
+}
